@@ -29,4 +29,5 @@ to train.
    *NOTE: remove parenthesis from any test images
 10. You should now be able to see an output image named as whatever you specified above
 
-[View a video explanation here](video link)
+[View a video explanation here]
+https://youtu.be/O3j3b4v2Igg
