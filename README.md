@@ -14,6 +14,9 @@ This project aims to use a ct-scan as an input image and detect whether the pers
 This program utilizes imagenet and resnet-18 and adds more possible outputs (the resulting disease detected). The existing model has been training to have a >90% accuracy. Essentially, with resnet-18 being
 the base AI program, while training the program was able to classify various ct-scans as COVID19, normal, tuberculosis, and pneuomnia by identifying similarities and differences. It uses torch and torchvision
 to train.
+When training, I used the script python3 train.py --model-dir=models/ct-scan data/ct-scan epochs = 35, essentially training the model off of input data images and allowing it to learn and become more accurate as the epochs ran. 
+Afterwards, I exported the model as an .onnx, using the script python3 onnx_export.py --model-dir=models/ct-scan
+After these steps, I was successfully able to use the trained model which is about 91% accurate.
 
 ## Running this project
 
