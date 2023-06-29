@@ -26,7 +26,7 @@ to train.
 7. In the terminal, go to jetson-inference/python/training/classification using the cd command.
 8. Create variables by typing NET=models/ct-scan and DATASET = data/ct-scan
 9. Test it out! Use an image of your choice from the test folder in data, then type imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=models/labels.txt $DATASET/[location of test image, should be put after data/ct-scan] [name of output].jpg
-   *NOTE: remove paraenthesis from any test images
+   *NOTE: remove parenthesis from any test images
 10. You should now be able to see an output image named as whatever you specified above
 
 [View a video explanation here](video link)
