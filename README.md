@@ -19,7 +19,7 @@ to train.
 
 1. Use the jetson-inference project (git clone --recursive https://github.com/dusty-nv/jetson-inference) and change directories into it 
 2. To use the existing model, download the following file named resnet18.onnx at this link : https://www.mediafire.com/file/njdth21j6gaotbx/resnet18.onnx/file
-3. Download the datafrom this link: https://www.kaggle.com/datasets/jtiptj/chest-xray-pneumoniacovid19tuberculosis?resource=download
+3. Download the data from this link: https://www.kaggle.com/datasets/jtiptj/chest-xray-pneumoniacovid19tuberculosis?resource=download
 4. Download labels.txt and put it under jetson-inference/python/training/classification/models/
 5. Create two new directories under data and models both called ct-scan
 6. Unzip the contents of the kaggle file into the data directory. Once finished, you should see test, train, and val directories which contain images of the various categories
